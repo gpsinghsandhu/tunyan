@@ -1,0 +1,22 @@
+{
+  "name": "tunyan",
+  "version": "0.0.1",
+  "description": "A tool to transform bunyan logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [
+    "bunyan",
+    "formatter",
+    "tranform",
+    "tunyan"
+  ],
+  "author": "gpsinghsandhu",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "split": "^1.0.0"
+  }
+}
