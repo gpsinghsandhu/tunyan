@@ -25,7 +25,8 @@ assert(typeof formatter === 'function', 'provided formatter file doesnot export 
 
 var entries = split('\n', function(input) {
     if (!input) {
-        return undefined; } // don't emit on trailing or keep alive new lines
+        return undefined; // don't emit on trailing or keep alive new lines
+    }
     var res;
     try {
         res = JSON.parse(input);
