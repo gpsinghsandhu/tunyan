@@ -10,7 +10,7 @@ A command-line tool to transform bunyan logs (or any ndjson stream).
 **formatterFilePath** - formatter is simply a nodejs module which returns a **function** of the following format:
 ```js
   function formatter(logObj) {
-    // logObj is the bunyan (or any json parsed object)
+    // logObj is the bunyan (or any json parsed) object
     ...
     // transform logObj
     ...
@@ -19,6 +19,8 @@ A command-line tool to transform bunyan logs (or any ndjson stream).
     
   module.exports = formatter;
 ```
+
+### The real power of tunyan is when you can save anything you like in your logs and then transform them for custom viewing
 
 ### Typical Use Case
 We are using **tunyan** mainly to suppress certain fields and customize msg in bunyan logs for viewing.
@@ -78,8 +80,5 @@ Now with bunyan CLI
   09:49:52.444Z  INFO myApp: address service : some done message (type=done, service="address service")
   09:49:55.444Z  INFO myApp: some rest message : GET http://blah.com/all.json in 1890ms (type=rest)
 ```
-And you can any formatter as you like to see different kinds of output :)
-  
+And you can have any number of formatters as you like to see different kinds of outputs :)
 
-  
-  
