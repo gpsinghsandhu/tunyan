@@ -1,6 +1,11 @@
 # tunyan
 A command-line tool to transform bunyan logs (or any ndjson stream).
 
+##Install
+```sh
+  npm install -g tunyan
+```
+
 ## Usage
 ```sh
   node server.js | tunyan <formatterFilePath> | bunyan

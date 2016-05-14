@@ -4,7 +4,6 @@
   "description": "A command-line tool to transform bunyan logs (or any ndjson stream)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./index.js",
   "keywords": [
