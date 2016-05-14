@@ -12,6 +12,7 @@
     "tunyan",
     "ndjson"
   ],
+  "repository": "https://github.com/gpsinghsandhu/tunyan.git",
   "author": "gpsinghsandhu",
   "license": "ISC",
   "dependencies": {
