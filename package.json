@@ -1,10 +1,9 @@
 {
   "name": "tunyan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A command-line tool to transform bunyan logs (or any ndjson stream)",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "bin": "./index.js",
   "keywords": [
     "bunyan",
